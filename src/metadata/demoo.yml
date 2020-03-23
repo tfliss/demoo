@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/demoo
+
+idspace: DEMOO
+base_url: /obo/demoo
+
+products:
+- demoo.owl: https://raw.githubusercontent.com/tfliss/demoo/master/demoo.owl
+- demoo.obo: https://raw.githubusercontent.com/tfliss/demoo/master/demoo.obo
+
+term_browser: ontobee
+example_terms:
+- demoo_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/tfliss/demoo/v
+
+- prefix: /tracker/
+  replacement: https://github.com/tfliss/demoo/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/DEMOO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/tfliss/demoo/master/
