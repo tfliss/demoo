@@ -52,6 +52,8 @@ There's a longer list that includes detailed evaluation criteria that will be up
 
 [INCATOOLs/ontology-development-kit](https://github.com/INCATools/ontology-development-kit#ontology-development-kit) - all-in-one OBO ontology project generator
 
+[Ontology Data Pipeline](https://github.com/biocodellc/ontology-data-pipeline) - an ontology generation workflow 
+
 [ROBOT](http://robot.obolibrary.org/) - command-line tools for working with OBO Foundry
 
 ----
