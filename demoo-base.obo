@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: demoo/releases/2020-03-23/demoo-base.owl
+ontology: demoo/demoo-base
+property_value: http://purl.org/dc/elements/1.1/description "None" xsd:string
+property_value: http://purl.org/dc/elements/1.1/title "Demo Ontology" xsd:string
+property_value: http://purl.org/dc/elements/1.1/type http://purl.obolibrary.org/obo/IAO_8000001 xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+
+[Term]
+id: DEMOO:00000000
+name: root node
+
